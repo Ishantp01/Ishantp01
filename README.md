@@ -1,57 +1,17 @@
-💫 About Me:
-🚀 ADRS Techno Enthusiast | 💻 Full-Stack Developer | 🎮 Unity Developer | 🔧 IoT & Cloud Solutions
+<h1 align="center">Hi 👋, I'm Ishant patel</h1>
+<h3 align="center">A passionate MERN developer from India</h3>
 
-I'm a passionate developer with expertise in building modern web applications, cloud solutions, and interactive experiences. Currently exploring the realms of NestJS, React, and AWS while tinkering with Raspberry Pi projects in my free time.
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ishantp01&label=Profile%20views&color=0e75b6&style=flat" alt="ishantp01" /> </p>
 
-🌐 Socials:
-https://img.shields.io/badge/Instagram-%2523E4405F.svg?logo=Instagram&logoColor=white
-https://img.shields.io/badge/LinkedIn-%25230077B5.svg?logo=linkedin&logoColor=white
-https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white
-https://img.shields.io/badge/Portfolio-%2523000000.svg?logo=react&logoColor=white
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
-💻 Tech Stack:
-https://img.shields.io/badge/java-%2523ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
-https://img.shields.io/badge/typescript-%2523007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
-https://img.shields.io/badge/javascript-%2523323330.svg?style=for-the-badge&logo=javascript&logoColor=%2523F7DF1E
-https://img.shields.io/badge/react-%252320232a.svg?style=for-the-badge&logo=react&logoColor=%252361DAFB
-https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white
-https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
-https://img.shields.io/badge/nestjs-%2523E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white
-https://img.shields.io/badge/MongoDB-%25234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
-https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white
-https://img.shields.io/badge/AWS-%2523FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white
-https://img.shields.io/badge/docker-%25230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
-https://img.shields.io/badge/unity-%2523000000.svg?style=for-the-badge&logo=unity&logoColor=white
-https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nestjs.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg" alt="nestjs" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
 
-📊 GitHub Stats:
-<div align="center">
-https://github-readme-stats.vercel.app/api?username=Ishantp01&theme=nightowl&hide_border=true&include_all_commits=true&count_private=true
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ishantp01&show_icons=true&locale=en&layout=compact" alt="ishantp01" /></p>
 
-https://github-readme-streak-stats.herokuapp.com/?user=Ishantp01&theme=nightowl&hide_border=true
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ishantp01&show_icons=true&locale=en" alt="ishantp01" /></p>
 
-https://github-readme-stats.vercel.app/api/top-langs/?username=Ishantp01&theme=nightowl&hide_border=true&include_all_commits=true&count_private=true&layout=compact
-
-</div>
-✍️ Random Dev Quote
-https://quotes-github-readme.vercel.app/api?type=vetical&theme=dark
-
-🔝 Top Contributed Repo
-https://github-contributor-stats.vercel.app/api?username=Ishantp01&limit=5&theme=dark&combine_all_yearly_contributions=true
-
-https://visitcount.itsvg.in/api?id=Ishantp01&icon=6&color=1&pretty=false
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-🎯 Currently Working On
-🔭 Next.js E-commerce platform with TypeScript and Prisma
-
-🌱 Learning advanced AWS services and cloud architecture
-
-👯 Looking to collaborate on open-source NestJS projects
-
-🤔 Exploring IoT applications with Raspberry Pi
-
-✨ Fun Fact
-⚡ When I'm not coding, I'm probably playing video games or building custom mechanical keyboards!
-
-"First, solve the problem. Then, write the code." - John Johnson
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ishantp01&" alt="ishantp01" /></p>
