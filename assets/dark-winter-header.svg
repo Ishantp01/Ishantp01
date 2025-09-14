@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Background gradient (very dark -> deep navy) -->
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#030406"/>
+      <stop offset="1" stop-color="#071022"/>
+    </linearGradient>
+
+    <!-- Slow fractal noise that becomes the smoke -->
+    <filter id="smokeFilter" x="-40%" y="-70%" width="180%" height="240%">
+      <feTurbulence id="turb" type="fractalNoise" baseFrequency="0.005" numOctaves="3" stitchTiles="stitch" result="noise">
+        <animate attributeName="baseFrequency" dur="30s" values="0.004;0.011;0.004" repeatCount="indefinite"/>
+      </feTurbulence>
+
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="32" xChannelSelector="R" yChannelSelector="G">
+        <animate attributeName="scale" dur="22s" values="12;38;12" repeatCount="indefinite"/>
+      </feDisplacementMap>
+
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <!-- gentle blue tint -->
+      <feColorMatrix type="matrix" values="
+         0.85 0    0    0 0
+         0    0.92 0    0 0
+         0    0    1.05 0 0
+         0    0    0    0.85 0"/>
+    </filter>
+
+    <!-- moving gradient for name shimmer -->
+    <linearGradient id="nameGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e8f7ff" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#e8f7ff" stop-opacity="0.6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- subtle glow behind the text -->
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="6" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+  <!-- smoky overlay (tint applied via feColorMatrix inside the filter) -->
+  <g filter="url(#smokeFilter)" opacity="0.62">
+    <rect width="100%" height="100%" fill="#bfe8ff"/>
+  </g>
+
+  <!-- soft breathing circle behind the name to create secretive pulse -->
+  <g>
+    <circle cx="600" cy="115" r="120" fill="#0c2230" opacity="0.22">
+      <animate attributeName="r" values="100;140;100" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.16;0.30;0.16" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- main text -->
+  <g text-anchor="middle" font-family="Segoe UI, Inter, Roboto, system-ui, -apple-system, Arial" fill="url(#nameGrad)">
+    <text x="50%" y="44%" font-size="46" font-weight="700" filter="url(#textGlow)">
+      REPLACE_ME: Your Name
+    </text>
+
+    <text x="50%" y="63%" font-size="16" fill="#93aabd" opacity="0.92" font-weight="400">
+      REPLACE_ME — winter is near · MERN · AR/VR · DevOps
+    </text>
+  </g>
+</svg>

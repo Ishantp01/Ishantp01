@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" preserveAspectRatio="none">
+  <defs>
+    <filter id="divSmoke" x="-20%" y="-40%" width="140%" height="180%">
+      <feTurbulence baseFrequency="0.03" numOctaves="2" result="n" stitchTiles="stitch">
+        <animate attributeName="baseFrequency" values="0.02;0.05;0.02" dur="18s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feGaussianBlur stdDeviation="9"/>
+      <feColorMatrix type="matrix" values="
+        0.8 0 0 0 0
+        0 0.9 0 0 0
+        0 0 1.1 0 0
+        0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+
+  <!-- a faint smoky band -->
+  <g filter="url(#divSmoke)" opacity="0.58">
+    <rect x="0" y="6" width="100%" height="76" fill="#dff5ff"/>
+  </g>
+</svg>
+
